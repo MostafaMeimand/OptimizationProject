@@ -1,0 +1,11 @@
+reset; # CLEAR FROM ANY PREVIOUS SOLVE
+
+#option solver cplex; # AMPL OPTION TO CHOOSE AN AVAILABLE SOLVER
+
+model Mostafa_Ehsan_Saman_FOCP_Dual.mod; # READ IN THE MODEL
+
+data Mostafa_Ehsan_Saman_FOCP_Dual.dat; # READ IN THE DATA AND INSTANTIATE THE MODEL
+
+solve; # PASS THE INSTANCE TO THE SOLVER
+
+display z,W_D, W_R, W_IR, W_DO;# > ex2.out; # WRITE THE OPTIMAL OBJECTIVE VALUE TO A FILE

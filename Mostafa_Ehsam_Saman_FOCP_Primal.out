@@ -1,0 +1,26 @@
+ampl: include Mostafa_Ehsan_Saman_FOCP_Dual.run
+MINOS 5.51: optimal solution found.
+20 iterations, objective -2154015.5
+z = -2154020
+W_D = 0.717949
+W_R = 0.717949
+
+:      W_IR       W_DO      :=
+1        .      0.8
+2        .      0.7
+3        .      0.809287
+4        .      0.7
+5    0.747905       .
+6    0.75           .
+7    0.8            .
+8    0.6            .
+9    0.6401         .
+10   0.5723         .
+11   0.8            .
+12   0.739018       .
+13   0.65           .
+14   0.45           .
+15   0.674418       .
+;
+
+ampl: 
